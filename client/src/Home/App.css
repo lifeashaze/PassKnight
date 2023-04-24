@@ -17,6 +17,11 @@
     color: white;
 }
 
+body {
+    background: rgb(69,79,97);
+    background: radial-gradient(circle, rgba(69,79,97,1) 11%, rgba(12,16,23,1) 58%);
+}
+
 button{
     cursor: pointer;
 }
