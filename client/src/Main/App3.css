@@ -1,0 +1,24 @@
+.mainContainerC{
+    background: rgb(69,79,97);
+       background: radial-gradient(circle, rgba(69,79,97,1) 11%, rgba(12,16,23,1) 58%);
+       height: 100vh;
+       color: white;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7.5em;
+}
+
+.passwordGenerator,.passwordManager,.passwordStrChecker{
+    height: 100px;
+    width: 400px;
+    background-image: linear-gradient(to right bottom, #7e4666, #714268, #623f6a, #513c6b, #3e3a6a, #374775, #30537e, #2c5f85, #457d99, #669cac, #8bbac0, #b4d8d6);
+    color: white;
+    font-size: 1rem;
+}

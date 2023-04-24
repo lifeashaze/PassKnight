@@ -1,0 +1,34 @@
+.genContainerC{
+background: rgb(69,79,97);
+   background: radial-gradient(circle, rgba(69,79,97,1) 11%, rgba(12,16,23,1) 58%);
+   height: 100vh;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.genContainer{
+    padding: 10em;
+    height: 300px;
+    width: 700px;
+    background: rgb(98,120,159);
+    background: linear-gradient(306deg, rgba(98,120,159,1) 14%, rgba(17,27,30,1) 58%, rgba(82,65,101,1) 72%);
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.pnbtn2{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 1em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.123);
+
+}

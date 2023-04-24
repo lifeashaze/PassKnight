@@ -1,0 +1,46 @@
+.strContainerC{
+    background: rgb(69,79,97);
+       background: radial-gradient(circle, rgba(69,79,97,1) 11%, rgba(12,16,23,1) 58%);
+       height: 100vh;
+       color: white;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .strContainer{
+        padding: 10em;
+        height: 400px;
+        width: 700px;
+        background: rgb(98,120,159);
+        background: linear-gradient(306deg, rgba(98,120,159,1) 14%, rgba(17,27,30,1) 58%, rgba(82,65,101,1) 72%);
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+    
+    .pnbtn2{
+        width: 200px;
+        height: 40px;
+        border-radius: 5px;
+        padding: 1em;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.123);
+    }
+
+    .strCheckerInput{
+        background-color: rgba(0, 0, 0, 0.3);
+        color: white;
+        margin-left: 15px;
+        padding: 1em;
+        font-size: 1rem;
+    }
+
+    .strpara{
+        font-size: 1.25rem;
+
+    }
